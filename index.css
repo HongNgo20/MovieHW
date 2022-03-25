@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+	background-image: linear-gradient( 180deg,  rgb(0, 0, 0) 23.8%, rgb(99, 0, 0) 92% );
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	margin: 0;
+}
+horizontal-scroll{
+    display: flex;
+}
+story-square{
+    display: flex;
+
+}
+
+.results {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.result {
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	height: 400px;
+	width: 300px;
+}
+
+.result img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button {
+	background-color: rgb(17, 15, 14);
+	border: 0;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+	margin: 10px;
+	width: 300px;
+}
+
+button:active {
+	transform: scale(0.98);
+}
+
+button:focus {
+	outline: none
+}
+/* .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 100px;
+    width: 100px;
+} */
+
+.previousButton{
+   
+    background-color: black;
+    border: 1px solid white;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+   
+}
+.nextButton{
+    background-color: black;
+    border: 1px solid white;
+    left: 635px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
